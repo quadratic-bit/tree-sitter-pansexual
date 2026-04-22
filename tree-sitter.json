@@ -7,10 +7,11 @@
       "title": "pansexual",
       "scope": "source.pansexual",
       "file-types": [
-        "pansexual"
+        "pan"
       ],
-      "injection-regex": "^pansexual$",
-      "class-name": "TreeSitterPansexual"
+      "injection-regex": "^pan$",
+      "class-name": "TreeSitterPansexual",
+      "tier": 2
     }
   ],
   "metadata": {
