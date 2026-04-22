@@ -1,0 +1,42 @@
+{
+  "$schema": "https://tree-sitter.github.io/tree-sitter/assets/schemas/config.schema.json",
+  "grammars": [
+    {
+      "name": "pansexual",
+      "camelcase": "Pansexual",
+      "title": "pansexual",
+      "scope": "source.pansexual",
+      "file-types": [
+        "pansexual"
+      ],
+      "injection-regex": "^pansexual$",
+      "class-name": "TreeSitterPansexual"
+    }
+  ],
+  "metadata": {
+    "version": "0.1.0",
+    "license": "MIT",
+    "description": ".pan message format",
+    "authors": [
+      {
+        "name": "ashooww",
+        "email": "fynjyxbrjd@gmail.com",
+        "url": ""
+      }
+    ],
+    "links": {
+      "repository": "https://github.com/quadratic-bit/tree-sitter-pansexual",
+      "funding": ""
+    }
+  },
+  "bindings": {
+    "c": true,
+    "go": false,
+    "java": false,
+    "node": true,
+    "python": false,
+    "rust": false,
+    "swift": false,
+    "zig": false
+  }
+}
