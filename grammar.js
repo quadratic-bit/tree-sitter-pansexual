@@ -2,7 +2,7 @@
 // @ts-check
 
 export default grammar({
-  name: "pan",
+  name: "pansexual",
 
   extras: $ => [
     /[\s\uFEFF\u2060\u200B]/,

@@ -4,13 +4,14 @@
     {
       "name": "pansexual",
       "camelcase": "Pansexual",
-      "title": "pansexual",
-      "scope": "source.pansexual",
+      "title": "Pansexual",
+      "scope": "source.pan",
       "file-types": [
         "pan"
       ],
-      "injection-regex": "^pan$",
+      "injection-regex": "^(pansexual|pan)$",
       "class-name": "TreeSitterPansexual",
+      "highlights": "queries/highlights.scm",
       "tier": 2
     }
   ],
